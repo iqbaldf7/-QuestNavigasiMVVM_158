@@ -39,6 +39,9 @@ fun FormulirView(
     var email by remember { mutableStateOf("") }
     var notelp by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
+    var nim by remember { mutableStateOf("") }
+
+
 
     var jenisK by remember { mutableStateOf("") }
     var listData:  MutableList<String> = mutableListOf(nama, jenisK, alamat)
@@ -50,6 +53,19 @@ fun FormulirView(
             fontWeight = FontWeight.Bold,
             fontSize = 28.sp)
         Spacer(modifier = Modifier.padding(16.dp))
+
+        TextField(
+            value = nim,
+            onValueChange = {nim = it},
+            modifier = Modifier.fillMaxWidth().padding(5.dp),
+            label = {
+                Text( text = "nim")
+            },
+            placeholder = {
+                Text(text = "Masukan Nim Anda")
+            }
+        )
+
         TextField(
             value = nama,
             onValueChange = {nama = it},
