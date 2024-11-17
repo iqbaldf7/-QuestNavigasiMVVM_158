@@ -36,6 +36,12 @@ fun TampilMahasiswaView(
             judul = "Alamat",
             isinya = mhs.alamat
         )
+        TampilData(
+            judul = "nim",
+            isinya = mhs.nim
+
+        )
+
     }
 }
 
