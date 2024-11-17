@@ -66,6 +66,8 @@ fun FormulirView(
             }
         )
 
+
+
         TextField(
             value = nama,
             onValueChange = {nama = it},
