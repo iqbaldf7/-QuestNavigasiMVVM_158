@@ -46,6 +46,7 @@ fun TampilMahasiswaView(
             isinya = mhs.nim,
             onClickButton = onClickButton
         )
+
     }
 }
 
