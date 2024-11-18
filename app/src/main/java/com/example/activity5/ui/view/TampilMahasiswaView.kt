@@ -40,6 +40,7 @@ fun TampilMahasiswaView(
             isinya = mhs.alamat,
             onClickButton = onClickButton
         )
+
         TampilData(
             judul = "NIM",
             isinya = mhs.nim,
