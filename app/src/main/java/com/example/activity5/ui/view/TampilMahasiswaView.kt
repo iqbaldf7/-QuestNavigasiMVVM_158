@@ -34,6 +34,7 @@ fun TampilMahasiswaView(
             isinya = mhs.gender,
             onClickButton = onClickButton
         )
+
         TampilData(
             judul = "Alamat",
             isinya = mhs.alamat,
